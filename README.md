@@ -29,7 +29,7 @@ We will have:
 
 The x2s_converter started out doing what generic_parser did even through it is a complete re-write.
 
-### Debuggin
+### Debug
 First change was add a lot more debug lines.
 
 ### Field validation
