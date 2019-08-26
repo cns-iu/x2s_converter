@@ -1,0 +1,731 @@
+<us-patent-grant lang="pubref:lang" dtd-version="pubref:dtd_version" file="pubref:filename" status="pubref:status"
+                 id="pubref:ident" country="pubref:country" date-produced="pubref:produced_date" date-publ="pubref:pub_date">
+  <us-bibliographic-data-grant>
+    <publication-reference>
+      <document-id>
+        <country>pubref:doc_id_country</country>
+        <doc-number>pubref:doc_num</doc-number>
+        <kind>pubref:doc_id_kind</kind>
+        <date>pubref:doc_id_date</date>
+      </document-id>
+    </publication-reference>
+    <us-sir-flag sir-text="pubref:us_sir_flag"/>
+    <application-reference table="appref" ctr_id="appref:appref_id_ctr" appl-type="appref:type">
+      <document-id>
+        <country>appref:country</country>
+        <doc-number>appref:appref_doc_num</doc-number>
+        <date>appref:date</date>
+      </document-id>
+    </application-reference>
+    <us-application-series-code>pubref:series_code</us-application-series-code>
+    <us-issued-on-continued-prosecution-application grant-cpa-text="pubref:prosecution_app"/>
+    <classification-ipc>
+      <edition>pubref:class_ipc_edition</edition>
+      <main-classification>pubref:class_ipc_main_class</main-classification>
+      <further-classification table="class_ipc_further_class" ctr_id="class_ipc_further_class:futher_class_id_ctr">class_ipc_further_class:class_ipc_further_class</further-classification>
+    </classification-ipc>
+    <classifications-ipcr>
+      <classification-ipcr table="class_ipcr" ctr_id="class_ipcr:class_ipcr_id_ctr">
+        <ipc-version-indicator>
+          <date>class_ipcr:class_ipcr_date</date>
+        </ipc-version-indicator>
+        <classification-level>class_ipcr:class_ipcr_class_level</classification-level>
+        <section>class_ipcr:class_ipcr_section</section>
+        <class>class_ipcr:class_ipcr_class</class>
+        <subclass>class_ipcr:class_ipcr_subclass</subclass>
+        <main-group>class_ipcr:class_ipcr_main_group</main-group>
+        <subgroup>class_ipcr:class_ipcr_sub_group</subgroup>
+        <symbol-position>class_ipcr:class_ipcr_position</symbol-position>
+        <classification-value>class_ipcr:class_ipcr_class_value</classification-value>
+        <action-date>
+          <date>class_ipcr:class_ipcr_action_date</date>
+        </action-date>
+        <generating-office>
+          <country>class_ipcr:class_ipcr_country</country>
+        </generating-office>
+        <classification-status>class_ipcr:class_ipcr_status</classification-status>
+        <classification-data-source>class_ipcr:class_ipcr_data_status</classification-data-source>
+      </classification-ipcr>
+    </classifications-ipcr>
+    <priority-claims><!-- unbounded -->
+      <priority-claim table="priority_claim" ctr_id="priority_claim:priority_claim_id_ctr" sequence="priority_claim:seq" kind="priority_claim:kind">
+        <country>priority_claim:country</country>
+        <doc-number>priority_claim:priority_claim_doc_num</doc-number>
+        <date>priority_claim:date</date>
+      </priority-claim>
+    </priority-claims>
+    <us-term-of-grant>
+      <length-of-grant>pubref:length_grant</length-of-grant>
+      <us-term-extension>pubref:us_term_extension</us-term-extension>
+      <prior-disclosure-affidavit-filed>pubref:prior_disclosure_affidavit_filed</prior-disclosure-affidavit-filed>
+      <disclaimer>
+        <text>pubref:disclaimer</text>
+      </disclaimer>
+    </us-term-of-grant>
+    <classification-locarno>
+      <edition>pubref:class_locarno</edition>
+      <main-classification>pubref:main_class</main-classification>
+    </classification-locarno>
+    <classifications-cpc>
+      <main-cpc>
+        <classification-cpc table="class_cpc_main" ctr_id="class_cpc_main:class_cpc_main_id_ctr">
+          <cpc-version-indicator>
+            <date>class_cpc_main:cpc_version_date</date>
+          </cpc-version-indicator>
+          <section>class_cpc_main:section</section>
+          <class>class_cpc_main:class</class>
+          <subclass>class_cpc_main:subclass</subclass>
+          <main-group>class_cpc_main:main_group</main-group>
+          <subgroup>class_cpc_main:subgroup</subgroup>
+          <symbol-position>class_cpc_main:symbol_postition</symbol-position>
+          <classification-value>class_cpc_main:class_value</classification-value>
+          <action-date>
+            <date>class_cpc_main:action_date</date>
+          </action-date>
+          <generating-office>
+            <country>class_cpc_main:gen_office_country</country>
+          </generating-office>
+          <classification-status>class_cpc_main:class_status</classification-status>
+          <classification-data-source>class_cpc_main:class_source</classification-data-source>
+          <scheme-origination-code>class_cpc_main:schema_orig_code</scheme-origination-code>
+        </classification-cpc>
+      </main-cpc>
+      <further-cpc>
+        <classification-cpc table="class_cpc_further" ctr_id="class_cpc_further:class_cpc_further_id_ctr">
+          <cpc-version-indicator>
+            <date>class_cpc_further:cpc_version_date</date>
+          </cpc-version-indicator>
+          <section>class_cpc_further:section</section>
+          <class>class_cpc_further:class</class>
+          <subclass>class_cpc_further:subclass</subclass>
+          <main-group>class_cpc_further:main_group</main-group>
+          <subgroup>class_cpc_further:subgroup</subgroup>
+          <symbol-position>class_cpc_further:symbol_position</symbol-position>
+          <classification-value>class_cpc_further:class_value</classification-value>
+          <action-date>
+            <date>class_cpc_further:action_date</date>
+          </action-date>
+          <generating-office>
+            <country>class_cpc_further:gen_office_country</country>
+          </generating-office>
+          <classification-status>class_cpc_further:class_status</classification-status>
+          <classification-data-source>class_cpc_further:class_source</classification-data-source>
+          <scheme-origination-code>class_cpc_further:schema_orig_code</scheme-origination-code>
+        </classification-cpc>
+        <combination-set>
+          <group-number table="class_cpc_comb_set" ctr_id="class_cpc_comb_set:class_cpc_comb_set_id_ctr">
+            class_cpc_comb_set:group_num</group-number><!-- unbounded -->
+          <combination-rank>
+            <rank-number table="class_cpc_comb_rank" ctr_id="class_cpc_comb_rank:class_cpc_comb_rank_id_ctr">
+              class_cpc_comb_rank:rank</rank-number><!-- unbounded -->
+            <classification-cpc>
+              <cpc-version-indicator>
+                <date>class_cpc_comb_rank:version_indicator_date</date>
+              </cpc-version-indicator>
+              <section>class_cpc_comb_rank:section</section>
+              <class>class_cpc_comb_rank:class</class>
+              <subclass>class_cpc_comb_rank:subclass</subclass>
+              <main-group>class_cpc_comb_rank:main_group</main-group>
+              <subgroup>class_cpc_comb_rank:subgroup</subgroup>
+              <symbol-position>class_cpc_comb_rank:symbol_position</symbol-position>
+              <classification-value>class_cpc_comb_rank:class_value</classification-value>
+              <action-date>
+                <date>class_cpc_comb_rank:action_date</date>
+              </action-date>
+              <generating-office>
+                <country>class_cpc_comb_rank:gen_office_country</country>
+              </generating-office>
+              <classification-status>class_cpc_comb_rank:class_status</classification-status>
+              <classification-data-source>class_cpc_comb_rank:class_data_source</classification-data-source>
+              <scheme-origination-code>class_cpc_comb_rank:schema_orig_code</scheme-origination-code>
+            </classification-cpc>
+          </combination-rank>
+        </combination-set>
+      </further-cpc>
+    </classifications-cpc>
+    <classification-national>
+      <country>pubref:class_national</country>
+      <main-classification>pubref:classification</main-classification>
+      <further-classification table="further_class" ctr_id="further_class:further_class_id_ctr"> <!-- unbounded -->
+        further_class:further_classification
+      </further-classification>
+    </classification-national>
+    <invention-title id="pubref:qq">pubref:invention_title</invention-title>
+    <us-botanic table="us_botanic" ctr_id="us_botanic:us_botanic_id_ctr">
+      <latin-name>us_botanic:botanic_latin_name</latin-name>
+      <variety>us_botanic:variety</variety>
+    </us-botanic>
+    <references-cited>
+      <!-- <citation table="ref_cited" ctr_id="ref_cited:ref_cit_id_ctr"> --> <!-- unbounded -->
+      <citation><!-- unbounded -->
+        <patcit table="ref_cit_patcit" ctr_id="ref_cit_patcit:ref_cit_pat_id_ctr" num="ref_cit_patcit:patcit_num">
+          <document-id>
+            <country>ref_cit_patcit:patcit_country</country>
+            <doc-number>ref_cit_patcit:patcit_doc_num</doc-number>
+            <kind>ref_cit_patcit:patcit_kind</kind>
+            <name>ref_cit_patcit:patcit_name</name>
+            <date>ref_cit_patcit:patcit_date</date>
+          </document-id>
+        </patcit>
+        <nplcit table="ref_cit_nplcit" ctr_id="ref_cit_nplcit:nplcit_id_ctr" num="ref_cit_nplcit:num"> <!-- unbounded -->
+          <othercit>ref_cit_nplcit:othercit</othercit>
+        </nplcit>
+        <category table="ref_cit_category" ctr_id="ref_cit_category:ref_cit_cat_id_ctr">ref_cit_category:category</category>
+        <classification-cpc-text table="ref_cit_class_cpc" ctr_id="ref_cit_class_cpc:ref_cite_class_cpc_id_ctr">ref_cit_class_cpc:class_cpc_text</classification-cpc-text>
+        <classification-ipc table="ref_cit_class_ipc" ctr_id="ref_cit_class_ipc:ref_cit_class_ipc_id_ctr">
+          <edition>ref_cit_class_ipc:class_ipc_edition</edition>
+          <main-classification>ref_cit_class_ipc:class_ipc_main_class</main-classification>
+        </classification-ipc>
+        <classification-national table="ref_cited_class_nat" ctr_id="ref_cited_class_nat:us_ref_class_cited_nat_id_ctr">
+          <country>ref_cited_class_nat:country</country>
+          <main-classification>ref_cited_class_nat:main_class</main-classification>
+          <further-classification table="ref_cited_further" ctr_id="ref_cited_further:ref_cited_further_id_ctr"> <!-- unbounded -->
+            ref_cited_further:further_classification
+          </further-classification>
+        </classification-national>
+      </citation>
+    </references-cited>
+    <us-references-cited>
+      <!-- <us-citation table="us_ref_cited" ctr_id="us_ref_cited:us_ref_cit_id_ctr"> -->
+      <us-citation><!-- unbounded -->
+        <patcit table="us_ref_cit_patcit" ctr_id="us_ref_cit_patcit:us_ref_cit_pat_id_ctr" num="us_ref_cit_patcit:patcit_num">
+          <document-id>
+            <country>us_ref_cit_patcit:patcit_country</country>
+            <doc-number>us_ref_cit_patcit:patcit_doc_num</doc-number>
+            <kind>us_ref_cit_patcit:patcit_kind</kind>
+            <name>us_ref_cit_patcit:patcit_name</name>
+            <date>us_ref_cit_patcit:patcit_date</date>
+          </document-id>
+        </patcit>
+        <nplcit table="us_ref_cit_nplcit" ctr_id="us_ref_cit_nplcit:us_nplcit_id_ctr" num="us_ref_cit_nplcit:num"> <!-- unbounded -->
+          <othercit>us_ref_cit_nplcit:othercit</othercit>
+        </nplcit>
+        <category table="us_ref_cit_category" ctr_id="us_ref_cit_category:us_ref_cit_cat_id_ctr">us_ref_cit_category:category</category>
+        <classification-cpc-text table="us_ref_cit_class_cpc" ctr_id="us_ref_cit_class_cpc:us_ref_cit_class_cpc_id_ctr">us_ref_cit_class_cpc:class_cpc_text</classification-cpc-text>
+        <classification-national table="us_ref_cit_class_nat" ctr_id="us_ref_cited_class_nat:us_ref_class_nat_id_ctr">
+          <country>us_ref_cited_class_nat:country</country>
+          <main-classification>us_ref_cited_class_nat:main_class</main-classification>
+          <further-classification table="us_ref_cited_further" ctr_id="us_ref_cited_further:us_ref_cited_further_id_ctr"> <!-- unbounded -->
+            us_ref_cited_further:further_classification
+          </further-classification>
+        </classification-national>
+      </us-citation>
+    </us-references-cited>
+    <number-of-claims>pubref:no_of_claims</number-of-claims>
+    <us-exemplary-claim table="us_exemplary_claim" ctr_id="us_exemplary_claim:us_exemplary_claim_id_ctr">us_exemplary_claim:us_examplary_claim</us-exemplary-claim>
+    <field-of-search> <!-- unbounded -->
+      <classification-ipc table="field_of_search_ipc" ctr_id="field_of_search_ipc:field_of_search_ipc_id_ctr">
+        <edition>field_of_search_ipc:class_ipc_edition</edition>
+        <main-classification>field_of_search_ipc:class_ipc_main_class</main-classification>
+      </classification-ipc>
+      <classification-national table="field_of_search_national" ctr_id="field_of_search_national:field_of_search_national_id_ctr">
+        <country>field_of_search_national:national_country</country>
+        <main-classification>field_of_search_national:national_clasification</main-classification>
+        <additional-info>field_of_search_national:national_additional</additional-info>
+      </classification-national>
+    </field-of-search>
+    <us-field-of-classification-search>
+      <classification-national table="class_national" ctr_id="class_national:class_national_id_ctr"><!-- unbounded -->
+        <country>class_national:country</country>
+        <main-classification>class_national:main_class</main-classification>
+        <additional-info>class_national:additional</additional-info>
+      </classification-national>
+      <us-classifications-ipcr table="us_field_of_class_search_ipcr"
+                               ctr_id="us_field_of_class_search_ipcr:us_class_ipcr">
+        us_field_of_class_search_ipcr:us_class_search_ipcr</us-classifications-ipcr><!-- unbounded -->
+      <classification-cpc-text table="us_field_of_class_search_cpc"
+                               ctr_id="us_field_of_class_search_cpc:class_cpc_text_id_ctr">
+        us_field_of_class_search_cpc:text</classification-cpc-text><!-- unbounded -->
+      <classification-cpc-combination-text table="us_field_of_class_search_cpc_comb"
+                                           ctr_id="us_field_of_class_search_cpc_comb:class_cpc_comb_id_ctr">
+        us_field_of_class_search_cpc_comb:class_cpc_comb_text</classification-cpc-combination-text><!-- unbounded -->
+    </us-field-of-classification-search>
+    <figures table="figures" ctr_id="figures:figures_id_ctr">
+      <number-of-drawing-sheets>figures:num_of_drawing_sheets</number-of-drawing-sheets>
+      <number-of-figures>figures:num_of_figures</number-of-figures>
+    </figures>
+    <us-related-documents>
+      <division table="related_doc" ctr_id="related_doc:related_doc_id_ctr">
+        <relation>
+          <parent-doc>
+            <document-id>
+              <country>related_doc:parent_country</country>
+              <doc-number>related_doc:parent_doc_num</doc-number>
+              <kind>related_doc:parent_kind</kind>
+              <date>related_doc:parent_date</date>
+            </document-id>
+            <parent-status>related_doc:parent_status</parent-status>
+            <parent-grant-document>
+              <document-id>
+                <country>related_doc:par_grant_country</country>
+                <doc-number>related_doc:par_grant_doc_num</doc-number>
+                <kind>related_doc:par_grant_kind</kind>
+                <date>related_doc:date</date>
+              </document-id>
+            </parent-grant-document>
+            <international-filing-date>
+              <date>related_doc:international_filing_date</date>
+            </international-filing-date>
+            <parent-pct-document>
+              <document-id>
+                <country>related_doc:parent_pct_country</country>
+                <doc-number>related_doc:parent_pct_doc_num</doc-number>
+                <kind>related_doc:parent_pct_kind</kind>
+                <date>related_doc:parent_pct_date</date>
+              </document-id>
+            </parent-pct-document>
+          </parent-doc>
+          <child-doc>
+            <document-id>
+              <country>related_doc:child_country</country>
+              <doc-number>related_doc:child_doc_number</doc-number>
+              <kind>related_doc:child_doc_kind</kind>
+              <date>related_doc:child_doc_date</date>
+            </document-id>
+          </child-doc>
+        </relation>
+      </division>
+      <continuation-in-part table="continuation_in_part" ctr_id="continuation_in_part:cont_in_part_id_ctr"> <!-- unbounded -->
+        <relation>
+          <parent-doc>
+            <document-id>
+              <country>continuation_in_part:country</country>
+              <doc-number>continuation_in_part:cip_doc_num</doc-number>
+              <kind>continuation_in_part:kind</kind>
+              <date>continuation_in_part:date</date>
+            </document-id>
+            <parent-status>continuation_in_part:parent_status</parent-status>
+            <international-filing-date>
+              <date>continuation_in_part:international_filing_date</date>
+            </international-filing-date>
+            <parent-grant-document>
+              <document-id>
+                <country>continuation_in_part:parent_grant_country</country>
+                <doc-number>continuation_in_part:parent_grant_doc_num</doc-number>
+                <kind>continuation_in_part:parent_grant_kind</kind>
+                <date>continuation_in_part:parent_grant_date</date>
+              </document-id>
+            </parent-grant-document>
+            <parent-pct-document>
+              <document-id>
+                <country>continuation_in_part:parent_pct_country</country>
+                <doc-number>continuation_in_part:parent_pct_doc_num</doc-number>
+                <kind>continuation_in_part:parent_pct_kind</kind>
+                <date>continuation_in_part:parent_pct_date</date>
+              </document-id>
+            </parent-pct-document>
+          </parent-doc>
+          <child-doc>
+            <document-id>
+              <country>continuation_in_part:child_country</country>
+              <doc-number>continuation_in_part:child_doc_num</doc-number>
+              <kind>continuation_in_part:child_doc_kind</kind>
+              <date>continuation_in_part:child_doc_date</date>
+            </document-id>
+          </child-doc>
+        </relation>
+      </continuation-in-part>
+      <related-publication table="related_pub" ctr_id="related_pub:related_pub_id_ctr">
+        <document-id>  <!-- unbounded -->
+          <country>related_pub:country</country>
+          <doc-number>related_pub:doc_number</doc-number>
+          <kind>related_pub:kind</kind>
+          <date>related_pub:date</date>
+        </document-id>
+      </related-publication>
+      <reissue table="reissue" ctr_id="reissue:reissue_id_ctr">
+        <relation>
+          <parent-doc>
+            <document-id>
+              <country>reissue:country</country>
+              <doc-number>reissue:reissue_doc_num</doc-number>
+              <kind>reissue:kind</kind>
+              <date>reissue:date</date>
+            </document-id>
+            <parent-status>reissue:parent_status</parent-status>
+            <parent-grant-document>
+              <document-id>
+                <country>reissue:parent_country</country>
+                <doc-number>reissue:parent_doc_number</doc-number>
+                <kind>reissue:parent_kind</kind>
+                <date>reissue:parent_date</date>
+              </document-id>
+            </parent-grant-document>
+            <parent-pct-document>
+              <document-id>
+                <country>reissue:parent_pct_country</country>
+                <doc-number>reissue:parent_pct_doc_number</doc-number>
+                <kind>reissue:parent_pct_kind</kind>
+                <date>reissue:parent_pct_date</date>
+              </document-id>
+            </parent-pct-document>
+          </parent-doc>
+          <child-doc>
+            <document-id>
+              <country>reissue:child_country</country>
+              <doc-number>reissue:child_doc_number</doc-number>
+            </document-id>
+          </child-doc>
+        </relation>
+      </reissue>
+      <us-reexamination-reissue-merger table="us_related_doc_reexam" ctr_id="us_related_doc_reexam:us_relate_doc_reexam_ctr">
+        <relation>
+          <parent-doc>
+            <document-id>
+              <country>us_related_doc_reexam:parent_country</country>
+              <doc-number>us_related_doc_reexam:parent_doc_num</doc-number>
+              <date>us_related_doc_reexam:parent_date</date>
+              <kind>us_related_doc_reexam:parent_kind</kind>
+            </document-id>
+            <parent-grant-document>
+              <document-id>
+                <country>us_related_doc_reexam:parent_grant_country</country>
+                <doc-number>us_related_doc_reexam:parent_grant_doc_num</doc-number>
+                <kind>us_related_doc_reexam:parent_grant_kind</kind>
+                <date>us_related_doc_reexam:parent_grant_date</date>
+              </document-id>
+            </parent-grant-document>
+          </parent-doc>
+          <child-doc>
+            <document-id>
+              <country>us_related_doc_reexam:child_country</country>
+              <doc-number>us_related_doc_reexam:child_doc_num</doc-number>
+            </document-id>
+          </child-doc>
+        </relation>
+      </us-reexamination-reissue-merger>
+      <continuation table="continuation" ctr_id="continuation:continuation_id_ctr">
+        <relation>
+          <parent-doc>
+            <document-id>
+              <country>continuation:country</country>
+              <doc-number>continuation:continuation_doc_num</doc-number>
+              <kind>continuation:kind</kind>
+              <date>continuation:date</date>
+            </document-id>
+            <parent-status>continuation:parent_status</parent-status>
+            <international-filing-date>
+              <date>continuation:international_filing_date</date>
+            </international-filing-date>
+            <parent-grant-document>
+              <document-id>
+                <country>continuation:parent_country</country>
+                <doc-number>continuation:parent_doc_num</doc-number>
+                <kind>continuation:parent_kind</kind>
+                <date>continuation:parent_date</date>
+              </document-id>
+            </parent-grant-document>
+            <parent-pct-document>
+              <document-id>
+                <country>continuation:parent_pct_country</country>
+                <doc-number>continuation:parent_pct_doc_num</doc-number>
+                <date>continuation:parent_pct_date</date>
+              </document-id>
+            </parent-pct-document>
+          </parent-doc>
+          <child-doc>
+            <document-id>
+              <first-name>continuation:child_first_name</first-name>
+              <last-name>continuation:child_last_name</last-name>
+              <kind>continuation:child_kind</kind>
+              <country>continuation:child_country</country>
+              <doc-number>continuation:child_doc_num</doc-number>
+              <date>continuation:child_date</date>
+            </document-id>
+          </child-doc>
+        </relation>
+      </continuation>
+      <continuing-reissue table="us_continuing_reissue" ctr_id="us_continuing_reissue:us_cont_reissue_ctr">
+        <relation>
+          <parent-doc>
+            <document-id>
+              <country>us_continuing_reissue:doc_id_country</country>
+              <doc-number>us_continuing_reissue:doc_id_doc_num</doc-number>
+              <date>us_continuing_reissue:doc_id_date</date>
+            </document-id>
+            <parent-grant-document>
+              <document-id>
+                <country>us_continuing_reissue:parent_grant_country</country>
+                <doc-number>us_continuing_reissue:parent_grant_doc_num</doc-number>
+                <date>us_continuing_reissue:parent_grant_date</date>
+              </document-id>
+            </parent-grant-document>
+          </parent-doc>
+          <child-doc>
+            <document-id>
+              <country>us_continuing_reissue:child_doc_country</country>
+              <doc-number>us_continuing_reissue:child_doc_doc_num</doc-number>
+            </document-id>
+          </child-doc>
+        </relation>
+      </continuing-reissue>
+      <substitution table="substitution" ctr_id="substitution:substitution_id_ctr">
+        <relation>
+          <parent-doc>
+            <document-id>
+              <country>substitution:country</country>
+              <doc-number>substitution:substitution_doc_num</doc-number>
+              <kind>substitution:kind</kind>
+              <date>substitution:date</date>
+            </document-id>
+            <parent-status>substitution:parent_status</parent-status>
+          </parent-doc>
+          <child-doc>
+            <document-id>
+              <country>substitution:child_country</country>
+              <doc-number>substitution:child_doc_num</doc-number>
+            </document-id>
+          </child-doc>
+        </relation>
+      </substitution>
+      <us-provisional-application table="us_prov_app" ctr_id="us_prov_app:us_prove_app_id_ctr">
+        <document-id>
+          <country>us_prov_app:country</country>
+          <doc-number>us_prov_app:us_prov_app_doc_num</doc-number>
+          <kind>us_prov_app:kind</kind>
+          <date>us_prov_app:date</date>
+        </document-id>
+        <us-provisional-application-status>us_prov_app:status</us-provisional-application-status>
+      </us-provisional-application>
+    </us-related-documents>
+    <us-microform-quantity>pubref:us_microform_quantity</us-microform-quantity>
+    <parties>
+      <applicants><!-- unbounded? -->
+        <applicant table="applicant" ctr_id="applicant:us_app_id_ctr" sequence="applicant:seq"
+                   app-type="applicant:app_type" designation="applicant:designation"
+                   applicant-authority-category="applicant:app_auth_cat">
+          <addressbook>
+            <last-name>applicant:lastname</last-name>
+            <first-name>applicant:firstname</first-name>
+            <orgname>applicant:orgname</orgname>
+            <address>
+              <street>applicant:street</street>
+              <city>applicant:city</city>
+              <state>applicant:state</state>
+              <postcode>applicant:postcode</postcode>
+              <mailcode>applicant:mailcode</mailcode>
+              <country>applicant:country</country>
+            </address>
+          </addressbook>
+          <nationality>
+            <country>applicant:country_nationality</country>
+          </nationality>
+          <residence>
+            <country>applicant:country_residence</country>
+          </residence>
+          <us-rights to-dead-inventor="applicant:to_dead_inventor" kind="applicant:kind" />
+        </applicant>
+      </applicants>
+      <inventors> <!-- unbounded -->
+        <inventor table="inventor" ctr_id="inventor:inventor_id" sequence="inventor:seq" designation="inventor:designation">
+          <addressbook>
+            <last-name>inventor:last_name</last-name>
+            <first-name>inventor:first_name</first-name>
+            <address>
+              <city>inventor:city</city>
+              <country>inventor:country</country>
+            </address>
+          </addressbook>
+        </inventor>
+        <deceased-inventor table="deceased" ctr_id="deceased:dead_id_ctr" sequence="deceased:seq"> <!-- unbounded -->
+          <last-name>deceased:last_name</last-name>
+          <first-name>deceased:first_name</first-name>
+        </deceased-inventor>
+      </inventors>
+      <agents>
+        <agent table="agents" ctr_id="agents:agents_id_ctr" sequence="agents:seq" rep-type="agents:reg_type">
+          <addressbook>
+            <first-name>agents:firstname</first-name>
+            <last-name>agents:lastname</last-name>
+            <orgname>agents:orgname</orgname>
+            <address>
+              <country>agents:country</country>
+            </address>
+          </addressbook>
+        </agent>
+      </agents>
+    </parties>
+    <us-parties>
+      <us-applicants><!-- unbounded? -->
+        <us-applicant table="us_applicant" ctr_id="us_applicant:us_appl_id_ctr" sequence="us_applicant:seq"
+                      app-type="us_applicant:app_type" designation="us_applicant:designation"
+                      applicant-authority-category="us_applicant:app_auth_cat">
+          <addressbook>
+            <orgname>us_applicant:orgname</orgname>
+            <address>
+              <first-name>us_applicant:addr_book_first_name</first-name>
+              <last-name>us_applicant:addr_book_last_name</last-name>
+              <street>us_applicant:addr_book_street</street>
+              <city>us_applicant:addr_book_city</city>
+              <state>us_applicant:addr_book_state</state>
+              <country>us_applicant:addr_book_country</country>
+            </address>
+            <first-name>us_applicant:addr_first_name</first-name>
+            <last-name>us_applicant:addr_last_name</last-name>
+            <street>us_applicant:addr_street</street>
+            <city>us_applicant:addr_city</city>
+            <state>us_applicant:addr_state</state>
+            <country>us_applicant:addr_country</country>
+          </addressbook>
+          <residence>
+            <country>us_applicant:country_residence</country>
+          </residence>
+        </us-applicant>
+      </us-applicants>
+      <inventors>
+        <inventor table="us_inventor" ctr_id="us_inventor:inventor_id_ctr" sequence="us_inventor:seq"
+                  designation="us_inventor:designation">
+          <addressbook>
+            <last-name>us_inventor:last_name</last-name>
+            <first-name>us_inventor:first_name</first-name>
+            <address>
+              <city>us_inventor:city</city>
+              <state>us_inventor:state</state>
+              <country>us_inventor:country</country>
+            </address>
+          </addressbook>
+        </inventor>
+      </inventors>
+      <agents>
+        <agent table="us_agents" ctr_id="us_agents:us_agents_id_ctr" sequence="us_agents:seq" rep-type="us_agents:reg_type">
+          <addressbook>
+            <first-name>us_agents:first_name</first-name>
+            <last-name>us_agents:last_name</last-name>
+            <orgname>us_agents:orgname</orgname>
+            <address>
+              <first-name>us_agents:addr_first_name</first-name>
+              <last-name>us_agents:addr_last_name</last-name>
+              <city>us_agents:addr_city</city>
+              <state>us_agents:addr_state</state>
+              <country>us_agents:country</country>
+            </address>
+          </addressbook>
+        </agent>
+      </agents>
+    </us-parties>
+    <us-deceased-inventor table="us_deceased" ctr_id="us_deceased:us_dead_id_ctr" sequence="us_deceased:seq">
+      <addressbook>
+        <last-name>us_deceased:last_name</last-name>
+        <first-name>us_deceased:first_name</first-name>
+        <address>
+          <street>us_deceased:street</street>
+          <city>us_deceased:city</city>
+          <state>us_deceased:state</state>
+          <country>us_deceased:country</country>
+          <postcode>us_deceased:postcode</postcode>
+        </address>
+      </addressbook>
+    </us-deceased-inventor>
+    <assignees>
+      <assignee table="assignee" ctr_id="assignee:assignee_id_ctr">
+        <orgname>assignee:orgname</orgname>
+        <role>assignee:role</role>
+        <last-name>assignee:last_name</last-name>
+        <first-name>assignee:first_name</first-name>
+        <addressbook>
+          <orgname>assignee:addr_book_orgname</orgname>
+          <last-name>assignee:addr_book_last_name</last-name>
+          <first-name>assignee:addr_book_first_name</first-name>
+          <role>assignee:addr_book_role</role>
+          <address>
+            <city>assignee:addr_book_addr_city</city>
+            <state>assignee:addr_book_addr_state</state>
+            <country>assignee:addr_book_addr_country</country>
+          </address>
+        </addressbook>
+      </assignee>
+    </assignees>
+    <examiners>
+      <primary-examiner table="examiner" ctr_id="examiner:examiner_id_ctr">
+        <last-name>examiner:last_name</last-name>
+        <first-name>examiner:first_name</first-name>
+        <department>examiner:department</department>
+      </primary-examiner>
+      <assistant-examiner table="assist_examiner" ctr_id="assist_examiner:assist_exam_id_ctr">
+        <last-name>assist_examiner:last_name</last-name>
+        <first-name>assist_examiner:first_name</first-name>
+      </assistant-examiner>
+    </examiners>
+    <pct-or-regional-filing-data> <!-- unbounded -->
+      <document-id table="pct_regional_fil" ctr_id="pct_regional_fil:pct_reg_fil_id_ctr">
+        <country>pct_regional_fil:country</country>
+        <doc-number>pct_regional_fil:prf_doc_num</doc-number>
+        <kind>pct_regional_fil:kind</kind>
+        <date>pct_regional_fil:date</date>
+      </document-id>
+      <us-371c124-date>
+        <date>pct_regional_fil:us371c124_date</date>
+      </us-371c124-date>
+      <us-371c12-date>
+        <date>pct_regional_fil:us371c12_date</date>
+      </us-371c12-date>
+    </pct-or-regional-filing-data>
+    <pct-or-regional-publishing-data>
+      <document-id table="pct_regional_pub" ctr_id="pct_regional_pub:pct_region_pub_id_ctr">
+        <country>pct_regional_pub:country</country>
+        <doc-number>pct_regional_pub:prp_doc_num</doc-number>
+        <kind>pct_regional_pub:kind</kind>
+        <date>pct_regional_pub:date</date>
+      </document-id>
+    </pct-or-regional-publishing-data>
+    <hague-agreement-data table="hague_agreement" ctr_id="hague_agreement:hague_agreement_id_ctr">
+      <international-filing-date>
+        <date>hague_agreement:filing_date</date>
+      </international-filing-date>
+      <international-registration-publication-date>
+        <date>hague_agreement:reg_pub_date</date>
+      </international-registration-publication-date>
+      <international-registration-number>hague_agreement:reg_num</international-registration-number>
+      <international-registration-date>
+        <date>hague_agreement:reg_date</date>
+      </international-registration-date>
+    </hague-agreement-data>
+  </us-bibliographic-data-grant>
+  <abstract table="pubref_abs" ctr_id="pubref_abs:pubref_abs_id_ctr" id="pubref_abs:abstract_id">pubref_abs:abstract_txt
+    <p table="abstract_p" ctr_id="abstract_p:abstract_p_id_ctr" id="abstract_p:p_id" num="abstract_p:num">abstract_p:text</p>
+  </abstract>
+  <drawings table="drawings" ctr_id="drawings:drawing_id_ctr" id="drawings:id"><!-- unbounded -->
+    <figure table="draw_fig" ctr_id="draw_fig:draw_fig_id_ctr" id="draw_fig:fig_id" num="draw_fig:fig_num"><!-- unbounded -->
+      <img table="draw_fig_image" ctr_id="draw_fig_image:draw_fig_image_id_ctr" id="draw_fig_image:id"
+           he="draw_fig_image:he" wi="draw_fig_image:wi" file="draw_fig_image:file" alt="draw_fig_image:alt"
+           orientation="draw_fig_image:orientation" img-content="draw_fig_image:content" img-format="draw_fig_image:format"/>
+    </figure>
+  </drawings>
+  <description table="description" ctr_id="description:description_id_ctr" id="description:id">description:description_txt
+    <?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+    <heading table="description_heading" ctr_id="description_heading:description_heading_id_ctr"
+             id="description_heading:head_id" level="description_heading:level"> <!-- unbounded -->
+      description_heading:head_text
+    </heading>
+    <p table="description_p" ctr_id="description_p:description_p_id_ctr" id="description_p:id_p"
+       num="description_p:num">description_p:figref_text_p</p>
+    <description-of-drawings table="descrip_of_draw" ctr_id="descrip_of_draw:description_draw_id_ctr">descrip_of_draw:description<!-- unbounded -->
+      <heading table="dod_head" ctr_id="dod_head:dod_head_id_ctr" id="dod_head:heading_id" level="dod_head:level">dod_head:heading</heading>
+      <p table="dod_p" ctr_id="dod_p:dod_p_id_ctr" id="dod_p:p_id" num="dod_p:p_num">dod_p:p_text</p>
+    </description-of-drawings>
+    <?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+  </description>
+  <us-math table="us_maths" ctr_id="us_maths:us_maths_id_ctr" idrefs="us_maths:idrefs" nb-file="us_maths:nb_file">
+    <img id="us_maths:img_id" he="us_maths:img_he" wi="us_maths:img_wi" file="us_maths:img_file"
+         alt="us_maths:img_alt" img-content="us_maths:img_content" img-format="us_maths:img_format"/>
+  </us-math>
+  <us-chemistry table="us_chem" ctr_id="us_chem:us_id_ctr" idref="us_chem:idref" cdx-file="us_chem:cdx_file" mol-file="us_chem:mol_file"/>
+  <us-claim-statement>pubref:claim_statement</us-claim-statement>
+  <sequence-list-doc table="sequence_list_doc" ctr_id="sequence_list_doc:seq_list_id_ctr" id="sequence_list_doc:doc_id">
+    <sequence-list file="sequence_list_doc:file" carriers="sequence_list_doc:carriers" seq-file-type="sequence_list_doc:file_type"/>
+    <p table="sequence_list_p" ctr_id="sequence_list_p:seq_list_p_id_ctr" id="sequence_list_p:id" num="sequence_list_p:num">
+      sequence_list_p:text
+    </p>
+  </sequence-list-doc>
+  <us-sequence-list-doc
+                        table="us_sequence_list_doc" ctr_id="us_sequence_list_doc:us_seq_list_doc_id_ctr" id="us_sequence_list_doc:doc_id">us_sequence_list_doc:doc_text
+    <sequence-list file="us_sequence_list_doc:file" carriers="us_sequence_list_doc:carriers" seq-file-type="us_sequence_list_doc:file_type"/>
+    <p table="us_sequence_list_p" ctr_id="us_sequence_list_p:seq_list_p_id_ctr" id="us_sequence_list_p:id" num="us_sequence_list_p:num">
+      us_sequence_list_p:text
+    </p>  
+  </us-sequence-list-doc>
+  <claims table="claims" ctr_id="claims:claims_id_ctr" id="claims:id">
+    <claim table="claim" ctr_id="claim:claim_id_ctr" id="claim:id" num="claim:num">claim:text
+    </claim>
+  </claims>
+</us-patent-grant>
