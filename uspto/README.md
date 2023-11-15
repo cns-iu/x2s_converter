@@ -24,7 +24,3 @@ ngenparse-schema.sh - calls the x2s_converter.pl for creating the schema
 uspto_schema_20190731.sql has the postgresq schema
 
 uspto_schema_20190731_constraints.sql - has the added contraints that need applied
-
-## quick start
-
-You can get the last uspto.sql file here https://info.ils.indiana.edu/~gallantm/uspto_baseline.sql.gz  
