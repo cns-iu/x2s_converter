@@ -1,0 +1,267 @@
+  <PubmedArticle table="medline_master" xml_file_name="medline_master:filename">
+    <MedlineCitation file_number="medline_master:file_number" Owner="medline_master:owner" Status="medline_master:status" VersionID="medline_master:version" VersionDate="medline_master:version_date" IndexingMethod="medline_master:indexing_method">
+      <PMID Version="medline_master:mc_pmid_version">medline_master:pmid</PMID>
+      <DateCreated>
+        <Year>medline_master:created_year</Year>
+        <Month>medline_master:created_month</Month>
+        <Day>medline_master:created_day</Day>
+      </DateCreated>
+      <DateCompleted>
+        <Year>medline_master:completed_year</Year>
+        <Month>medline_master:completed_month</Month>
+        <Day>medline_master:completed_day</Day>
+      </DateCompleted>
+      <DateRevised>
+        <Year>medline_master:revised_year</Year>
+        <Month>medline_master:revised_month</Month>
+        <Day>medline_master:revised_day</Day>
+      </DateRevised>
+      <Article PubModel="medline_master:pubmodel">
+        <Journal>
+          <ISSN IssnType="medline_master:issn_type">medline_master:issn</ISSN>
+          <JournalIssue CitedMedium="medline_master:medium">
+            <Volume>medline_master:volume</Volume>
+            <Issue>medline_master:issue</Issue>
+            <PubDate>
+              <Year>medline_master:pub_year</Year>
+              <Month>medline_master:pub_month</Month>
+              <Day>medline_master:pub_day</Day>
+              <Season>medline_master:pub_season</Season>
+              <MedlineDate>medline_master:pub_medlinedate</MedlineDate>
+            </PubDate>
+          </JournalIssue>
+          <Title>medline_master:journal_title</Title>
+          <ISOAbbreviation>medline_master:iso_abbrev</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>medline_master:article_title</ArticleTitle>
+        <Pagination>
+          <StartPage>medline_master:start_page</StartPage>
+          <EndPage>medline_master:end_page</EndPage>
+          <MedlinePgn>medline_master:pagination</MedlinePgn>
+        </Pagination>
+        <ELocationID table="medline_elocationid" ctr_id="medline_elocationid:eloc_ctr" EIdType="medline_elocationid:eid_type" ValidYN="medline_elocationid:eid_valid">medline_elocationid:elocation</ELocationID>
+        <Abstract>
+          <AbstractText table="medline_abstract_text" ctr_id="medline_abstract_text:abstract_ctr" Label="medline_abstract_text:label" NlmCategory="medline_abstract_text:nlmcategory">medline_abstract_text:abstract_text
+          </AbstractText>
+          <CopyrightInformation>medline_master:abstract_copyright_info</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="medline_master:complete_authors">
+          <Author table="medline_author" ctr_id="medline_author:author_ctr"
+            ValidYN="medline_author:author_valid" EqualContrib="medline_author:equalcontrib">
+            <LastName>medline_author:last_name</LastName>
+            <ForeName>medline_author:fore_name</ForeName>
+            <Initials>medline_author:initials</Initials>
+            <Suffix>medline_author:suffix</Suffix>
+            <CollectiveName>medline_author:collective_name</CollectiveName>
+            <Identifier table="medline_author_identifier"
+              ctr_id="medline_author_identifier:identifier_ctr"
+              Source="medline_author_identifier:source">medline_author_identifier:identifier</Identifier>
+            <AffiliationInfo table="medline_author_affiliation"
+              ctr_id="medline_author_affiliation:affiliation_ctr">
+              <Affiliation>medline_author_affiliation:affiliation</Affiliation>
+              <Identifier table="medline_author_affiliation_identifier"
+                ctr_id="medline_author_affiliation_identifier:affiliation_identifier_ctr"
+                Source="medline_author_affiliation_identifier:source">medline_author_affiliation_identifier:identifier</Identifier>
+            </AffiliationInfo>
+          </Author>
+        </AuthorList>
+        <Language table="medline_language"
+          ctr_id="medline_language:language_ctr">medline_language:language</Language>
+        <DataBankList CompleteYN="medline_master:complete_databanks">
+          <DataBank table="medline_databank"
+            ctr_id="medline_databank:databank_ctr">
+            <DataBankName>medline_databank:databankname</DataBankName>
+            <AccessionNumberList>
+              <AccessionNumber table="medline_accession_number"
+                ctr_id="medline_accession_number:accession_ctr">medline_accession_number:accession_number</AccessionNumber>
+              </AccessionNumberList>
+            </DataBank>
+        </DataBankList>
+        <GrantList
+          CompleteYN="medline_master:complete_grants">
+          <Grant table="medline_grant" ctr_id="medline_grant:grant_ctr">
+            <GrantID>medline_grant:grant_id</GrantID>
+            <Acronym>medline_grant:acronym</Acronym>
+            <Agency>medline_grant:agency</Agency>
+            <Country>medline_grant:country</Country>
+          </Grant>
+        </GrantList> 
+        <PublicationTypeList>
+          <PublicationType table="medline_publicationtype"
+          ctr_id="medline_publicationtype:pubtype_ctr"
+          UI="medline_publicationtype:ui">medline_publicationtype:publicationtype</PublicationType>
+        </PublicationTypeList>
+        <VernacularTitle>medline_master:vernacular_title</VernacularTitle>
+        <ArticleDate table="medline_article_date"
+                     ctr_id="medline_article_date:article_ctr"
+                     DateType="medline_article_date:datetype">
+          <Year>medline_article_date:article_year</Year>
+          <Month>medline_article_date:article_month</Month>
+          <Day>medline_article_date:article_day</Day>
+        </ArticleDate>
+      </Article> 
+      <MedlineJournalInfo>
+        <Country>medline_master:journal_country</Country>
+        <MedlineTA>medline_master:journal_medline_ta</MedlineTA>
+        <NlmUniqueID>medline_master:journal_nlmuniqueid</NlmUniqueID>
+        <ISSNLinking>medline_master:journal_issnlinking</ISSNLinking>
+      </MedlineJournalInfo>
+      
+      <ChemicalList>
+        <Chemical table="medline_chemical"
+        ctr_id="medline_chemical:chemical_ctr">
+          <RegistryNumber>medline_chemical:registry_number</RegistryNumber>
+          <NameOfSubstance
+          UI="medline_chemical:ui">medline_chemical:substance_name</NameOfSubstance>
+        </Chemical>
+      </ChemicalList> 
+      <SupplMeshList>
+        <SupplMeshName table="medline_supp_mesh"
+        ctr_id="medline_supp_mesh:mesh_ctr" Type="medline_supp_mesh:mesh_type"
+        UI="medline_supp_mesh:ui">medline_supp_mesh:mesh_name</SupplMeshName>
+      </SupplMeshList> 
+      <CitationSubset table="medline_citation_subset"
+      ctr_id="medline_citation_subset:subset_ctr">medline_citation_subset:citation_subset</CitationSubset>
+      <CommentsCorrectionsList>
+        <CommentsCorrections table="medline_comments_corrections"
+        ctr_id="medline_comments_corrections:comment_ctr"
+        RefType="medline_comments_corrections:reftype">
+          <RefSource>medline_comments_corrections:refsource</RefSource> 
+          <PMID Version="medline_comments_corrections:refpmidver">medline_comments_corrections:refpmid</PMID>
+          <Note>medline_comments_corrections:note</Note>
+        </CommentsCorrections>
+      </CommentsCorrectionsList> 
+      <GeneSymbolList>
+        <GeneSymbol table="medline_gene_symbol"
+        ctr_id="medline_gene_symbol:gene_ctr">medline_gene_symbol:gene_symbol</GeneSymbol>
+      </GeneSymbolList> 
+      <MeshHeadingList>
+        <MeshHeading table="medline_mesh_heading"
+        ctr_id="medline_mesh_heading:heading_ctr">
+          <DescriptorName MajorTopicYN="medline_mesh_heading:major_topic"
+          UI="medline_mesh_heading:ui"
+          Type="medline_mesh_heading:descriptor_type">medline_mesh_heading:descriptor_name</DescriptorName>
+          <QualifierName table="medline_mesh_qualifier"
+          ctr_id="medline_mesh_qualifier:qualifier_ctr"
+          MajorTopicYN="medline_mesh_qualifier:major_topic"
+          UI="medline_mesh_qualifier:ui">medline_mesh_qualifier:qualifier_name</QualifierName>
+        </MeshHeading>
+      </MeshHeadingList>
+      <NumberOfReferences>medline_master:number_of_references</NumberOfReferences>
+      <CoiStatement>medline_master:coistatement</CoiStatement>
+      <PersonalNameSubjectList>
+        <PersonalNameSubject table="medline_personal_name_subject"
+        ctr_id="medline_personal_name_subject:subject_ctr">
+          <LastName>medline_personal_name_subject:last_name</LastName>
+          <ForeName>medline_personal_name_subject:fore_name</ForeName>
+          <Initials>medline_personal_name_subject:initials</Initials>
+          <Suffix>medline_personal_name_subject:suffix</Suffix>
+        </PersonalNameSubject>
+      </PersonalNameSubjectList> 
+      <OtherID table="medline_other_id"
+      ctr_id="medline_other_id:id_ctr"
+      Source="medline_other_id:id_source">medline_other_id:other_id
+      </OtherID>
+      <OtherAbstract table="medline_other_abstract"
+        ctr_id="medline_other_abstract:abstract_ctr"
+        Type="medline_other_abstract:abstract_type"
+        Language="medline_other_abstract:language">
+        <AbstractText table="medline_other_abstract_text"
+        ctr_id="medline_other_abstract_text:para_ctr"
+        Label="medline_other_abstract_text:label"
+        NlmCategory="medline_other_abstract_text:nlmcategory">medline_other_abstract_text:abstract_text</AbstractText>
+        <CopyrightInformation>medline_other_abstract:copyright_info</CopyrightInformation>
+      </OtherAbstract> 
+      <KeywordList table="medline_keyword_list"
+        ctr_id="medline_keyword_list:list_ctr" Owner="medline_keyword_list:owner">
+        <Keyword table="medline_keywords" ctr_id="medline_keywords:keyword_ctr"
+        MajorTopicYN="medline_keywords:major_topic">medline_keywords:keyword</Keyword>
+      </KeywordList> 
+      <SpaceFlightMission table="medline_space_flight"
+        ctr_id="medline_space_flight:flight_ctr">medline_space_flight:space_flight</SpaceFlightMission>
+      <InvestigatorList>
+        <Investigator table="medline_investigators"
+        ctr_id="medline_investigators:investigator_ctr"
+        ValidYN="medline_investigators:valid">
+          <LastName>medline_investigators:last_name</LastName>
+          <ForeName>medline_investigators:fore_name</ForeName>
+          <Initials>medline_investigators:initials</Initials>
+          <Suffix>medline_investigators:suffix</Suffix>
+          <CollectiveName>medline_investigators:collective_name</CollectiveName>
+          <Identifier table="medline_investigator_identifier"
+          ctr_id="medline_investigator_identifier:identifier_id_ctr"
+          Source="medline_investigator_identifier:source">medline_investigator_identifier:identifier</Identifier>
+          <AffiliationInfo table="medline_investigator_affiliation"
+          ctr_id="medline_investigator_affiliation:affiliation_ctr">
+            <Affiliation>medline_investigator_affiliation:affiliation</Affiliation>
+            <Identifier table="medline_investigator_affiliation_identifier"
+            ctr_id="medline_investigator_affiliation_identifier:affiliation_identifier_ctr"
+            Source="medline_investigator_affiliation_identifier:source">medline_investigator_affiliation_identifier:identifier</Identifier>
+          </AffiliationInfo>
+        </Investigator>
+      </InvestigatorList> <GeneralNote table="medline_general_note" ctr_id=
+      "medline_general_note:note_ctr"
+      Owner="medline_general_note:owner">medline_general_note:note</GeneralNote>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate table="pubmedhistory" ctr_id="pubmedhistory:pubmed_ctr" PubStatus="pubmedhistory:status">
+          <Year>pubmedhistory:year</Year>
+          <Month>pubmedhistory:month</Month>
+          <Day>pubmedhistory:day</Day>
+          <Hour>pubmedhistory:hour</Hour>
+          <Minute>pubmedhistory:minute</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus table="pubmedstatus" ctr_id="pubmedstatus:pmstatid_ctr">pubmedstatus:ppublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId table="pubmedidlist" ctr_id="pubmedidlist:pmidlist_ctr" IdType="pubmedidlist:idtype">
+          pubmedidlist:article_id</ArticleId>
+      </ArticleIdList>
+      <ReferenceList>
+        <Title table="pubmed_data_ref_list" ctr_id="pubmed_data_ref_list:ref_list_ctr">pubmed_data_ref_list:title</Title>
+        <Reference table="pubmed_data_ref" ctr_id="pubmed_data_ref:ref_ctr">
+          <Citation>pubmed_data_ref:citation</Citation>
+          <ArticleIdList>
+            <ArticleId table="pubmed_data_ref_article" ctr_id="pubmed_data_ref_article:art_ctr" IdType="pubmed_data_ref_article:idtype">pubmed_data_ref_article:article_id</ArticleId>
+          </ArticleIdList>
+        </Reference>
+        <ReferenceList>
+          <Title table="pubmed_data_ref_list" ctr_id="pubmed_data_ref_list:ref_list_ctr">pubmed_data_ref_list:title</Title>
+          <Reference table="pubmed_data_ref" ctr_id="pubmed_data_ref:ref_ctr">
+            <Citation>pubmed_data_ref:citation</Citation>
+            <ArticleIdList>
+              <ArticleId table="pubmed_data_ref_article" ctr_id="pubmed_data_ref_article:art_ctr" IdType="pubmed_data_ref_article:idtype">pubmed_data_ref_article:article_id</ArticleId>
+            </ArticleIdList>
+          </Reference>
+          <ReferenceList>
+            <Title table="pubmed_data_ref_list" ctr_id="pubmed_data_ref_list:ref_list_ctr">pubmed_data_ref_list:title</Title>
+            <Reference table="pubmed_data_ref" ctr_id="pubmed_data_ref:ref_ctr">
+              <Citation>pubmed_data_ref:citation</Citation>
+              <ArticleIdList>
+                <ArticleId table="pubmed_data_ref_article" ctr_id="pubmed_data_ref_article:art_ctr" IdType="pubmed_data_ref_article:idtype">pubmed_data_ref_article:article_id</ArticleId>
+              </ArticleIdList>
+            </Reference>
+            <ReferenceList>
+              <Title table="pubmed_data_ref_list" ctr_id="pubmed_data_ref_list:ref_list_ctr">pubmed_data_ref_list:title</Title>
+              <Reference table="pubmed_data_ref" ctr_id="pubmed_data_ref:ref_ctr">
+                <Citation>pubmed_data_ref:citation</Citation>
+                <ArticleIdList>
+                  <ArticleId table="pubmed_data_ref_article" ctr_id="pubmed_data_ref_article:art_ctr" IdType="pubmed_data_ref_article:idtype">pubmed_data_ref_article:article_id</ArticleId>
+                </ArticleIdList>
+              </Reference>
+              <ReferenceList>
+                <Title table="pubmed_data_ref_list" ctr_id="pubmed_data_ref_list:ref_list_ctr">pubmed_data_ref_list:title</Title>
+                <Reference table="pubmed_data_ref" ctr_id="pubmed_data_ref:ref_ctr">
+                  <Citation>pubmed_data_ref:citation</Citation>
+                  <ArticleIdList>
+                    <ArticleId table="pubmed_data_ref_article" ctr_id="pubmed_data_ref_article:art_ctr" IdType="pubmed_data_ref_article:idtype">pubmed_data_ref_article:article_id</ArticleId>
+                  </ArticleIdList>
+                </Reference>
+              </ReferenceList>
+            </ReferenceList>
+          </ReferenceList>
+        </ReferenceList>
+      </ReferenceList>
+    </PubmedData>
+  </PubmedArticle>
